@@ -3,7 +3,7 @@ import cors from 'cors';     // for cors issue
 
 const app = express()
 app.use(cors())
-// const port = 3000
+// const port = 3000 
 
 app.get('/home', (req, res) => {
   res.send('I am home page!')
